@@ -1,15 +1,16 @@
 # C-debugger-json-files-for-vs-code
-Any one who want to debug his/her code in c++ use the json in the given file
-Pre-requistic:
-Vs code,
-MINGW - gdb and g++ 
+* Any one who want to debug his/her code in c++ use the json in the given file
+1. Pre-requistic:
+- Vs code,
+- MINGW gdb and g++ 
 installed in your windows.
 ---------------------------------------------------------------------------------------------------------------
 You should have input.txt and output.txt file in your folder and these lines. So that you can take input from these files in the same folder
 ---------------------------------------------------------------------------------------------------------------------------------------
         freopen("input.txt", "r", stdin); // you can have any name of input.txt remember to change in launch.json also
         freopen("output.txt", "w", stdout); // you can have any name of output.txt remember to change in launch.json also
-----------------------------------------------------------------------------------------------------------------------------------    
+----------------------------------------------------------------------------------------------------------------------------------
+```ruby
 Launch.json file code
 {
     "version": "0.2.0",
@@ -40,7 +41,9 @@ Launch.json file code
         }
     ]
 }
+```
 -----------------------------------------------------------------------------------------------------------------------------------------
+```ruby
 tasks.json file
 
 {
@@ -69,5 +72,6 @@ tasks.json file
     }
   ]
 }
+```
 -------------------------------------
 
