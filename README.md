@@ -1,6 +1,6 @@
 # C-debugger-json-files-for-vs-code
 Any one who want to debug his/her code in c++ use the json in the given file
-*Pre-requistic:*
+Pre-requistic:
 Vs code,
 MINGW - gdb and g++ 
 installed in your windows.
@@ -9,7 +9,7 @@ You should have input.txt and output.txt file in your folder and these lines. So
         freopen("input.txt", "r", stdin); // you can have any name of input.txt remember to change in launch.json also
         freopen("output.txt", "w", stdout); // you can have any name of output.txt remember to change in launch.json also
 ----------------------------------------------------------------------------------------------------------------------------------    
-*Launch.json file code*
+Launch.json file code
 {
     "version": "0.2.0",
     "configurations": [
@@ -40,7 +40,7 @@ You should have input.txt and output.txt file in your folder and these lines. So
     ]
 }
 -----------------------------------------------------------------------------------------------------------------------------------------
-* tasks.json file*
+tasks.json file
 
 {
   "version": "2.0.0",
