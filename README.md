@@ -5,7 +5,8 @@
 - MINGW gdb and g++ 
 installed in your windows.
 ---------------------------------------------------------------------------------------------------------------
-You should have input.txt and output.txt file in your folder and these lines. So that you can take input from these files in the same folder
+
+- You should have input.txt and output.txt file in your folder and these lines. So that you can take input from these files in the same folder
 ---------------------------------------------------------------------------------------------------------------------------------------
         freopen("input.txt", "r", stdin); // you can have any name of input.txt remember to change in launch.json also
         freopen("output.txt", "w", stdout); // you can have any name of output.txt remember to change in launch.json also
@@ -74,4 +75,5 @@ tasks.json file
 }
 ```
 -------------------------------------
+![alt text](https://github.com/shivamjai800/C-debugger-json-files-for-vs-code/blob/master/vs-code%20debugger%20snapshot.jpg)
 
