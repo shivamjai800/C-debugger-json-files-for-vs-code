@@ -1,12 +1,12 @@
 # C-debugger-json-files-for-vs-code
-* Any one who want to debug his/her code in c++ use the json in the given file
+* Any one who wants to debug his/her code in c++ using inbuilt debugger, should use the json in the given file
 1. Pre-requistic:
 - Vs code,
 - MINGW gdb and g++ 
 installed in your windows.
 ---------------------------------------------------------------------------------------------------------------
 
-- You should have input.txt and output.txt file in your folder and these lines. So that you can take input from these files in the same folder
+- You should have input.txt and output.txt file in your folder. So that you can take input from these files in the same folder
 ---------------------------------------------------------------------------------------------------------------------------------------
         freopen("input.txt", "r", stdin); // you can have any name of input.txt remember to change in launch.json also
         freopen("output.txt", "w", stdout); // you can have any name of output.txt remember to change in launch.json also
